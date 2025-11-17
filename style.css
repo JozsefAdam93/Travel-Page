@@ -1,0 +1,12 @@
+#upper{
+    height: 800px;
+    background-image: url(/places/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.class1{
+    text-align: center;
+    padding-top: 200px;
+    background-color: darkgray;
+    backface-visibility: inherit;
+}

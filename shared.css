@@ -1,33 +1,43 @@
 body {
-    font-family: "Quicksand", sans-serif;
-    margin : 0;
+  font-family: "Quicksand", sans-serif;
+  margin: auto;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-   
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-li{
-    margin: 10px;
-    width: 100px;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header ul {
+  display: flex;
 }
-header ul{
-    display: flex;
+header li {
+  margin-right: 25px;
+}
+header li a {
+  text-decoration: none;
+  color: rgb(245, 243, 160);
+}
+header li a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(245, 243, 160);
+  padding: 10px 10px;
+  border-radius: 15px;
 }
 #page-logo a {
-    text-decoration: none;
-    color: rgb(245, 243, 160);
-    padding: 10px;
-    font-size: 50px;
-    font-family: "Oleo Script", sans-serif;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+  color: rgb(245, 243, 160);
+  padding: 10px;
+  font-size: 50px;
+  font-family: "Oleo Script", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
 }
-
