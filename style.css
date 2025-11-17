@@ -1,12 +1,44 @@
-#upper{
-    height: 800px;
-    background-image: url(/places/ocean.jpg);
-    background-position: center;
-    background-size: cover;
+#upper {
+  height: 800px;
+  background-image: url(/places/ocean.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.class1{
-    text-align: center;
-    padding-top: 200px;
-    background-color: darkgray;
-    backface-visibility: inherit;
+#centerbox {
+  width: 600px;
+  padding: 40px;
+  border-radius: 25px;
+
+  text-align: center;
+  background-color: rgba(39, 35, 35, 0.8);
+  box-shadow: 3px 6px 12px rgb(27, 23, 23);
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+#centerbox h1 {
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+#centerbox p {
+    color:white;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+#centerbox a {
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 8px;
+}
+#centerbox a:hover {
+    background-color:yellowgreen ;
+
 }
