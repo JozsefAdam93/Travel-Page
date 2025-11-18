@@ -1,7 +1,5 @@
 body {
   font-family: "Quicksand", sans-serif;
- 
-  
 }
 
 ul {
@@ -15,29 +13,31 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
-  position:absolute;
+  position: absolute;
   width: 100%;
   top: 0;
   box-sizing: border-box;
- 
 }
 header ul {
   display: flex;
-  
+  padding: 20px;
 }
 header li {
-  margin-right: 20px;
+  margin-right: 40px;
+  margin-left: 20px;
+
 }
 header li a {
   text-decoration: none;
   color: rgb(245, 243, 160);
   text-transform: bold;
+  font-size: 20px;
 }
 header li a:hover {
   text-decoration: none;
   color: black;
   background-color: rgb(245, 243, 160);
-  padding: 10px 10px;
+  padding: 10px 5px;
   border-radius: 15px;
 }
 #page-logo a {
