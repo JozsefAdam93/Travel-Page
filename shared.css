@@ -1,7 +1,7 @@
 body {
   font-family: "Quicksand", sans-serif;
-  margin: auto;
-  width: auto;
+ 
+  
 }
 
 ul {
@@ -15,16 +15,23 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position:absolute;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+ 
 }
 header ul {
   display: flex;
+  
 }
 header li {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 header li a {
   text-decoration: none;
   color: rgb(245, 243, 160);
+  text-transform: bold;
 }
 header li a:hover {
   text-decoration: none;

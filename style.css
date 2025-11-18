@@ -3,24 +3,18 @@
   background-image: url(/places/ocean.jpg);
   background-position: center;
   background-size: cover;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0;
-  box-sizing: border-box;
+  ;
 }
 #centerbox {
   width: 600px;
   padding: 40px;
   border-radius: 25px;
-
   text-align: center;
   background-color: rgba(39, 35, 35, 0.8);
   box-shadow: 3px 6px 12px rgb(27, 23, 23);
   margin: 0 auto;
-  position: relative;
+  position:relative;
   top: 150px;
-  
 }
 #centerbox h1 {
   font-size: 60px;
