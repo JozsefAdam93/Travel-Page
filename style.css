@@ -47,43 +47,42 @@
 }
 
 #destinations {
-  display: flex;/*lista rendezés.. nem tom hogy de vízszintesen*/
-  justify-content: center;/*középre a konténert*/
-  width: 90%;
+  display: flex; /*lista rendezés.. nem tom hogy de vízszintesen*/
+  justify-content: center; /*középre a konténert*/
+  width: 100%;
   margin: auto;
   margin-bottom: 40px;
-
 }
-.destination{
+.destination {
   padding: 10px;
   margin: 0 20px;
+  align-items: center;
 }
 
 .destination img {
   height: 200px;
-  width: 100%;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 1px 2px 8px rgb(27, 23, 23);
   object-fit: cover; /*kép automéretezése a konténerbe(fill,contain,cover)*/
-  
 }
 
-h2{
+h2 {
   text-align: center;
-  text-transform: uppercase;/*csupa nagybetű*/
+  text-transform: uppercase; /*csupa nagybetű*/
   font-size: 40px;
   color: rgb(53, 64, 66);
   margin: 24px 0;
 }
-p{
+p {
   text-align: center;
   font-size: 24px;
 }
-p b{
+p b {
   color: rgb(75, 174, 204);
 }
-#lower{
+#lower {
   background-color: rgb(179, 226, 235);
   padding: 24px 0;
-  background:linear-gradient(0deg, rgb(207, 241, 252), rgb(131, 193, 204))
+  background: linear-gradient(0deg, rgb(238, 244, 247), rgb(131, 193, 204));
 }
