@@ -1,19 +1,20 @@
 #upper {
+  /*section 1*/
   height: 800px;
   background-image: url(/places/ocean.jpg);
   background-position: center;
   background-size: cover;
 }
 #centerbox {
-  width: 600px;
+  width: 900px;
   padding: 40px;
   border-radius: 25px;
   text-align: center;
-  background-color: rgba(39, 35, 35, 0.8);
+  background-color: rgba(39, 35, 35, 0.8); /*szín átláthatósággal*/
   box-shadow: 3px 6px 12px rgb(27, 23, 23);
   margin: 0 auto;
-  position: relative;
-  top: 150px;
+  position: relative; /*pozíció változtatás a többi elem befolyásolása nélkül*/
+  top: 200px;
 }
 #centerbox h1 {
   font-size: 60px;
@@ -55,13 +56,13 @@
 }
 .destination {
   padding: 10px;
-  margin: 0 20px;
+  margin: 0 70px;
   align-items: center;
 }
 
 .destination img {
   height: 200px;
-  width: 90%;
+  width: 100%;
   border-radius: 8px;
   box-shadow: 1px 2px 8px rgb(27, 23, 23);
   object-fit: cover; /*kép automéretezése a konténerbe(fill,contain,cover)*/
@@ -77,6 +78,7 @@ h2 {
 p {
   text-align: center;
   font-size: 24px;
+  margin: 20px 0;
 }
 p b {
   color: rgb(75, 174, 204);
